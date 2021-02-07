@@ -1,0 +1,61 @@
+body{
+    background-color: #d3b84b;
+}
+.appTitle{
+    text-align: center;
+    color: rgb(53, 53, 53);
+    margin-bottom: -20px;
+
+}
+#mealsContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+.singleMeal{
+    width: 260px;
+    background-color: white;
+    border-radius: 10px;
+}
+.singleMeal img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+.singleMeal h5{
+    padding: 15px 10px;
+    text-align: center;
+}
+#mealDetails{
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 38%;
+}
+#mealDetails img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#mealDetails h3, h5{
+    padding: 10px 22px 0px 22px;
+}
+#mealDetails h5{
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+#mealDetails h3{
+    color: tomato;
+}
+#mealDetails p{
+    padding-left: 22px;
+    font-weight: 600;
+    line-height: 15px;
+}
+.ingredientHighlight{
+    color: tomato;
+}
+.lastIngredient{
+    padding-bottom: 20px;
+}
